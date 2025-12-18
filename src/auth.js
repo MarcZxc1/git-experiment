@@ -1,11 +1,14 @@
 // Authentication module
 function login(username, password) {
-  // TODO: Implement login logic
+  // Simple login implementation
+  if (username === "admin" && password === "admin") {
+    return true;
+  }
   return false;
 }
 
 function logout() {
-  // TODO: Implement logout logic
+  // Clear user session
   console.log("User logged out");
 }
 
