@@ -1,0 +1,19 @@
+{
+  "name": "team-collaboration-project",
+  "version": "1.0.0",
+  "description": "Sample project for practicing Git workflows",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "collaboration",
+    "practice"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {}
+}
+
