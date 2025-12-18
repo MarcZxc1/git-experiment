@@ -1,13 +1,24 @@
 // Authentication module
 function login(username, password) {
-  // TODO: Implement login logic
-  return false;
+  // Validate credentials
+  if (!username || !password) {
+    return { success: false, message: "Username and password required" };
+  }
+  
+  // TODO: Implement actual authentication
+  return { success: true, token: "temp_token" };
 }
 
 function logout() {
-  // TODO: Implement logout logic
+  // Clear session
   console.log("User logged out");
+  return { success: true };
 }
 
-export { login, logout };
+function validateToken(token) {
+  // TODO: Implement token validation
+  return token !== null;
+}
+
+export { login, logout, validateToken };
 
